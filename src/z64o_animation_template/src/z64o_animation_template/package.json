@@ -2,11 +2,32 @@
   "name": "z64o_animation_template",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "main": "z64o_animation.js",
+  "author": "ModLoader64",
+  "credits": "",
+  "license": "GPL-3.0",
+  "core": [
+    "Z64Lib"
+  ],
+  "compression": "zip",
+  "z64o_animation": {
+    "OOT": {
+      "anim_file": {
+        "file": "vergil_anim.anim",
+        "name": "Vergil"
+      },
+      "options": {
+        "floorPlaneCompensation": true
+      }
+    },
+    "MM": {
+      "anim_file": {
+        "file": "",
+        "name": ""
+      },
+      "options": {
+        "floorPlaneCompensation": true
+      }
+    }
+  }
 }
